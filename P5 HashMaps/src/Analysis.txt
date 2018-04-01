@@ -1,0 +1,11 @@
+method			Avg runtime	Worst runtime
+hash()			O(1)		O(1)	
+clear()			O(N)		O(N)
+containsKey()		O(N)		O(N)
+containsValue()		O(N^2)		O(N^2)
+get()			O(N)		O(N)
+isEmpty()		O(N)		O(N)
+put()			O(N)		O(N^2)
+remove()		O(N)		O(N)
+replace()		O(N)		O(N)
+size()			O(N)		O(N)
